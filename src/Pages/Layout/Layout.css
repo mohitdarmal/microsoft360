@@ -1,0 +1,30 @@
+
+.demo-logo-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+
+  .ant-menu-dark .ant-menu-item-selected {
+    background-color: #02023700 !important;
+  }
+
+  .ant-menu-title-content{
+     color: white !important;
+  }
+ .ant-menu-submenu .ant-menu-submenu-inline .ant-menu-submenu-open {
+
+    background-color: #02023700 !important;
+ }
+  
+  
+
+ @media screen and (max-width:767px){    
+  .ant-layout-sider-collapsed{
+      flex: 0 0 0px !important;
+      max-width: 0px !important;
+      min-width: 0px !important;
+      width: 0px !important; 
+  }
+}

@@ -1,0 +1,9 @@
+.header_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60;
+    padding: 0;
+    background: white;
+    box-shadow: 4px 4px 4px rgba(4; 0.4; 0.4; 0.6);
+}
